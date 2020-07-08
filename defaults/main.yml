@@ -4,7 +4,7 @@
 common:
   - git
   - make
-  - awk
+  - gawk
   - gcc
   - unzip
   - tar
