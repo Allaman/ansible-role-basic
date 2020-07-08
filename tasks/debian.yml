@@ -7,5 +7,5 @@
 - name: Install packages
   become: true
   apt:
-    name: ["{{ common }}"]
+    name: "{{ common }}"
     state: present

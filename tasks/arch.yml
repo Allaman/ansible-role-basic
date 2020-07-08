@@ -7,5 +7,5 @@
 - name: Install packages
   become: true
   package:
-    name: ["{{ common }}"]
+    name: "{{ common }}"
     state: present
