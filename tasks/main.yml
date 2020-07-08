@@ -1,0 +1,7 @@
+---
+# tasks file for ansible-role-basic
+
+- include_tasks: tasks/arch.yml
+  when: ansible_os_family == "Archlinux"
+- include_tasks: tasks/debian.yml
+  when: ansible_os_family == "Debian"

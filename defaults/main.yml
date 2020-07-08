@@ -1,0 +1,10 @@
+---
+# defaults file for ansible-role-basic
+
+common:
+  - git
+  - make
+  - awk
+  - gcc
+  - unzip
+  - tar
