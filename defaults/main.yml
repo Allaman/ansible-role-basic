@@ -8,3 +8,4 @@ common:
   - gcc
   - unzip
   - tar
+  - zsh
