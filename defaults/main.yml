@@ -9,3 +9,6 @@ common:
   - unzip
   - tar
   - zsh
+
+debian:
+  - python3-dev
