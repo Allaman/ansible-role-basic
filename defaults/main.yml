@@ -9,6 +9,8 @@ common:
   - unzip
   - tar
   - zsh
+  - xcb-util-xrm
+  - check
 
 debian:
   - python3-dev
