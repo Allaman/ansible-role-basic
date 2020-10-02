@@ -1,7 +1,7 @@
 ansible-role-basic
 =========
 
-Install common dependencies for other ansible roles and optionally yay as AUR wrapper tool
+Install common dependencies for other ansible roles
 
 Requirements
 ------------
@@ -10,8 +10,6 @@ Requirements
 
 Role Variables
 --------------
-
-- `yay`: set to true to install [yay](https://github.com/Jguer/yay)
 
 Dependencies
 ------------
