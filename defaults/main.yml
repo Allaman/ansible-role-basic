@@ -2,7 +2,6 @@
 # defaults file for ansible-role-basic
 
 common:
-  - base-devel
   - git
   - make
   - gawk
@@ -15,3 +14,7 @@ common:
 
 debian:
   - python3-dev
+  - build-essential
+
+arch:
+  - base-devel
