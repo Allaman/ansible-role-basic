@@ -9,12 +9,13 @@ common:
   - unzip
   - tar
   - zsh
-  - xcb-util-xrm
   - check
 
 debian:
-  - python3-dev
   - build-essential
+  - python3-dev
+  - libxcb-xrm0
 
 arch:
   - base-devel
+  - xcb-util-xrm
