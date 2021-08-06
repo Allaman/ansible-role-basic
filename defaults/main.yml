@@ -10,6 +10,7 @@ common:
   - tar
   - zsh
   - check
+  - zip
 
 debian:
   - build-essential
