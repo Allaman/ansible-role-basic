@@ -1,34 +1,27 @@
-ansible-role-basic
-=========
+# ansible-role-basic
 
-Install common dependencies for other ansible roles
+Install common and basic packages
 
-Requirements
-------------
+## Test
 
-- Sudo permission
+Run `molecule test` to test this role in a docker container
 
-Role Variables
---------------
+## Requirements
 
-Dependencies
-------------
+- `sudo` permissions
 
-No dependencies
+## Role Variables
 
-Example Playbook
-----------------
+- NA
 
-```
----
-- name: Playbook
-  hosts: localhost
-  connection: local
-  roles:
-    - ansible-role-basic
-```
+## Dependencies
 
-License
--------
+- NA
+
+## Example Playbook
+
+See [converge.yml](https://github.com/Allaman/ansible-role-basic/blob/main/molecule/default/converge.yml)
+
+## License
 
 MIT

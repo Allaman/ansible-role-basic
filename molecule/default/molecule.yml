@@ -1,13 +1,28 @@
 ---
 dependency:
   name: galaxy
+  options:
+    force: True
 driver:
   name: docker
 platforms:
-  - name: instance
-    image: docker.io/pycontribs/centos:7
-    pre_build_image: true
+  - name: basic
+    image: archlinux
+    dockerfile: Dockerfile.j2
+    pull: false
+    pre_build_image: false
 provisioner:
   name: ansible
-verifier:
-  name: ansible
+  playbooks:
+    converge: converge.yml
+scenario:
+  name: default
+  test_sequence:
+    - destroy
+    - dependency
+    - lint
+    - create
+    - prepare
+    - converge
+    - verify
+    - destroy
