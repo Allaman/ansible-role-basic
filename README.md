@@ -1,5 +1,7 @@
 # ansible-role-basic
 
+**OBSOLET**
+
 Install common and basic packages
 
 ## Test
